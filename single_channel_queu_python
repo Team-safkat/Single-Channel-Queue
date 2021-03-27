@@ -1,4 +1,4 @@
-print("\t\t\tSIMULATION PROJECT\n\n")
+print("\t\t\tSIMULATION Assignment 5\n\n")
 #no_of_customer = 20
 
 #using poisson distribution
