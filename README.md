@@ -5,7 +5,7 @@ We have to solve single channel queuing problem in python. Firstly, we have to d
 First inter arrival time, arrival time, Time service begin, customer wait in queue, idle term of server is defined as 0.<br/><br/>
 The value of second to twenty value are find by using this function <br/>
        ***`arrival_time[i] = arrival time[i-1] + inter_arrival_time[i].`***<br/><br/>
-The time_service_begin are find in,<br/> ***`if `<br/> `____previous customer time_service_end >= present customer_arrival_time`<br/>`then` <br/>`____Time_Service_Begin (TSB) = Time_Service_end (TSE)`<br/> `else`<br/>`____Time_Service_Begin (TSB) = Arrival time.`***  <br/><br/>
+The time_service_begin are find in,<br/> ***`if `<br/> `__  previous customer time_service_end >= present customer_arrival_time`<br/>`__ then` <br/>`__ Time_Service_Begin (TSB) = Time_Service_end (TSE)`<br/> `else`<br/>`___ Time_Service_Begin (TSB) = Arrival time.`***  <br/><br/>
 Customer wait in queue are finding by using this formula <br/>***`if`<br/> `present arrrival time >= previous time_service_end` <br/>`then`<br/> `Customer_wait_in_queue = 0`<br/> `else` <br/>`Customer_wait_in_queue = previous time_service_end present arrival time.`***<br/><br/>
 Now<br/> ***`Time_service_end = arrival_time + service_time + Customer_wait_in_queue.`***<br/><br/>
 ***`The customer spend in system = Service_time + Customer_wait_in_queue.`*** <br/><br/>
