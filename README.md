@@ -10,7 +10,7 @@ Customer wait in queue are finding by using this formula <br/>***`if`<br/> `pres
 Now<br/> ***`Time_service_end = arrival_time + service_time + Customer_wait_in_queue.`***<br/><br/>
 ***`The customer spend in system = Service_time + Customer_wait_in_queue.`*** <br/><br/>
 Idle_time_of_Server are finding by using this formula.<br/>
- If<br/> ***`present_customer_arrival_time > previous customer time_service_end`***<br/> then,<br/> ***`Idle_time_of_Server = present arrrival time - previous time_service_end`***<br/> else<br/> ***`Idle_time_of_Server = 0.`***<br/><br/>
+ ***`if`<br/> `present_customer_arrival_time > previous customer time_service_end`<br/> `then`<br/> `Idle_time_of_Server = present arrrival time - previous time_service_end`<br/> `else`<br/> `Idle_time_of_Server = 0.`<br/><br/>
 Now find average number of customers waiting in the queue and average waiting time.<br/>
 	***`Average number of customers waiting in the queue =   (Number of customer waiting in queue)/(Number of customer)`***<br/>
 	***`Average waiting time = (Total waiting time)/(Total number of customer)`***<br/>
