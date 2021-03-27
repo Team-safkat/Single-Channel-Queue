@@ -1,5 +1,5 @@
-`print("\t\t\tSIMULATION Assignment 5\n\n")
-#no_of_customer = 20`
+print("\t\t\tSIMULATION Assignment 5\n\n")
+#no_of_customer = 20
 
 #using poisson distribution
 from scipy.stats import *
