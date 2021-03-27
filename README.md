@@ -1,7 +1,7 @@
 ## Single-Channel-Queuing Problem 
 In Single-Channel-Queuing Problem, one customer is served at a single time. If the server is busy then the customers have to wait in queue.<br/><br/>
-We have to solve single channel queuing problem in python. Firstly, we have to define inter arrival time by using Poisson distribution and Service time are define by using
-*Exponential distribution*. This problem is defined for 20 customers.<br/><br/>
+We have to solve single channel queuing problem in python. Firstly, we have to define inter arrival time by using **Poisson distribution** and Service time are define by using
+**Exponential distribution**. This problem is defined for 20 customers.<br/><br/>
 First inter arrival time, arrival time, Time service begin, customer wait in queue, idle term of server is defined as 0.<br/><br/>
 The value of second to twenty value are find by using this function <br/>
         ***`arrival_time[i] = arrival time[i-1] + inter_arrival_time[i].`***<br/><br/>
