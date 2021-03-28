@@ -15,3 +15,9 @@ Now find average number of customers waiting in the queue and average waiting ti
 	***`Average number of customers waiting in the queue =   (Number of customer waiting in queue)/(Number of customer)`***<br/>
 	***`Average waiting time = (Total waiting time)/(Total number of customer)`***<br/>
     
+
+## Team-Safkat members
+- - 👋 Hi, I’m Safkat Khan
+- - 👋 Hi, I’m Mominul Hoque
+- - 👋 Hi, I’m @Safkatlp
+- - 👋 Hi, I’m @Safkatlp
