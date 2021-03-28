@@ -2,11 +2,11 @@
 In Single-Channel-Queuing Problem, one customer is served at a single time. If the server is busy then the customers have to wait in queue.<br/><br/>
 We have to solve single channel queuing problem in python. Firstly, we have to define inter arrival time by using **Poisson distribution** and Service time are define by using
 **Exponential distribution**. This problem is defined for 20 customers.<br/><br/>
-First inter arrival time, arrival time, Time service begin, customer wait in queue, idle term of server is defined as 0.<br/><br/>
+First inter arrival time, arrival time, Time service begin, customer wait in queue, idle time of server is defined as 0.<br/><br/>
 The value of second to twenty value are find by using this function: <br/><br/>
        ***`arrival_time[i] = arrival time[i-1] + inter_arrival_time[i].`***<br/><br/><br/>
 The time_service_begin are find in:<br/><br/> ***`if `<br/> `__  previous customer time_service_end >= present customer_arrival_time`<br/>`then` <br/>`__ Time_Service_Begin (TSB) = Time_Service_end (TSE)`<br/> `else`<br/>`__ Time_Service_Begin (TSB) = Arrival time.`***  <br/><br/><br/>
-Customer wait in queue are finding by using this formula: <br/><br/>***`if`<br/> `___ present arrrival time >= previous time_service_end` <br/>`then`<br/> `___ Customer_wait_in_queue = 0`<br/> `else` <br/>`___ Customer_wait_in_queue = previous time_service_end present arrival time.`***<br/><br/>
+Customer wait in queue are finding by using this formula: <br/><br/>***`if`<br/> `___ present arrrival time >= previous time_service_end` <br/>`then`<br/> `___ Customer_wait_in_queue = 0`<br/> `else` <br/>`___ Customer_wait_in_queue = previous time_service_end - present arrival time.`***<br/><br/>
 Now<br/> ***`Time_service_end = arrival_time + service_time + Customer_wait_in_queue.`***<br/><br/>
 ***`The customer spend in system = Service_time + Customer_wait_in_queue.`*** <br/><br/><br/>
 Idle_time_of_Server are finding by using this formula:<br/><br/>
@@ -21,6 +21,9 @@ Now find average number of customers waiting in the queue and average waiting ti
 -  👋 Hi, I’m [Mominul Hoque](https://github.com/mominul104)
 -  👋 Hi, I’m [M.A. Nabil](https://github.com/nabilcse13)
 -  👋 Hi, I’m [Saif Hossain](https://github.com/shfx0096)
+
+## Quick Links!
+- [Probability Distributions in Python](https://www.datacamp.com/community/tutorials/probability-distributions-python?fbclid=IwAR0Yv_-Bwi2hHTdtPCZcydzQCYZxOtP8mwNwMVAA61xY8Zvux16uSqAs3Vc)
 
 
 ## What is Probability Distribution
