@@ -28,5 +28,6 @@ Now find average number of customers waiting in the queue and average waiting ti
 ![image](https://user-images.githubusercontent.com/74718375/112758781-e2de5f00-9011-11eb-952d-a0859d50300e.png)<br/>
 
 ## Short introduction to Exponential Distribution
-***The exponential*** distribution describes the time between events in a Poisson point process, i.e., a process in which events occur continuously and independently at a constant average rate. It has a parameter λ called rate parameter, and its equation is described as :
+- ***The exponential*** distribution describes the time between events in a ***Poisson point*** process, i.e., a process in which events occur continuously and independently at a constant average rate. It has a parameter ***λ*** called ***rate parameter***, and its equation is described as :<br/>
+![image](https://user-images.githubusercontent.com/74718375/112759206-d3601580-9013-11eb-909f-b215e2b6ca32.png)<br/>
 
