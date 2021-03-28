@@ -17,7 +17,10 @@ Now find average number of customers waiting in the queue and average waiting ti
     
 
 ## Team-Safkat members
-- - 👋 Hi, I’m Safkat Khan
-- - 👋 Hi, I’m Mominul Hoque
-- - 👋 Hi, I’m @Safkatlp
-- - 👋 Hi, I’m @Safkatlp
+-  👋 Hi, I’m [Safkat Khan](https://github.com/Safkatlp)
+-  👋 Hi, I’m [Mominul Hoque](https://github.com/mominul104)
+-  👋 Hi, I’m [M.A. Nabil]()
+-  👋 Hi, I’m [Saif Hossain](https://github.com/shfx0096)
+
+http://github.com - automatic!
+[GitHub](http://github.com)
