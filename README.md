@@ -24,7 +24,7 @@ Now find average number of customers waiting in the queue and average waiting ti
 
 
 ## What is Probability Distribution
-- ***Probability distribution*** yields the possible outcomes for any ***random event***. It is also defined based on the underlying sample space as a set of possible outcomes of any random experiment. These settings could be a set of real numbers or a set of vectors or set of any entities. It is a part of probability and statistics.
+- ***Probability distribution*** yields the possible outcomes for any ***random event***. It is also defined based on the underlying sample space as a set of possible outcomes of any random experiment. These settings could be a set of real numbers or a set of vectors or set of any entities. It is a part of probability and statistics. ***Poisson Distribution*** and ***Exponential Distribution*** are two types of Probability Distribution **among 7 types*** of probability distribuiton.
 
 ## Short introduction to Poisson Distribution
 - ***Poisson random variable*** is typically used to model the number of times an event happened in a time interval. For example, the number of users visited on a website in an interval can be thought of a Poisson process. Poisson distribution is described in terms of the rate ***(μ)*** at which the events happen. An event can occur ***0, 1, 2, …*** times in an interval. The average number of events in an interval is designated ***λ (lambda)***. Lambda is the event rate, also called the ***rate parameter***. The probability of observing ***k*** events in an interval is given by the equation:<br/>
