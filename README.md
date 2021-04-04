@@ -27,10 +27,10 @@ Now find average number of customers waiting in the queue and average waiting ti
 
 
 ## What is Probability Distribution
-- ***Probability distribution*** yields the possible outcomes for any ***random event***. It is also defined based on the underlying sample space as a set of possible outcomes of any random experiment. These settings could be a set of real numbers or a set of vectors or set of any entities. It is a part of probability and statistics. ***Poisson Distribution*** and ***Exponential Distribution*** are two types of Probability Distribution **among 7 types*** of probability distribuiton.
+- ***Probability distribution*** yields the possible outcomes for any ***random event***. It is also defined based on the underlying sample space as a set of possible outcomes of any random experiment. These settings could be a set of real numbers or a set of vectors or a set of any entities. It is a part of probability and statistics. ***Poisson Distribution*** and ***Exponential Distribution*** are two types of Probability Distribution **among 7 types*** of probability distributions.
 
 ## Short introduction to Poisson Distribution
-- ***Poisson random variable*** is typically used to model the number of times an event happened in a time interval. For example, the number of users visited on a website in an interval can be thought of a Poisson process. Poisson distribution is described in terms of the rate ***(μ)*** at which the events happen. An event can occur ***0, 1, 2, …*** times in an interval. The average number of events in an interval is designated ***λ (lambda)***. Lambda is the event rate, also called the ***rate parameter***. The probability of observing ***k*** events in an interval is given by the equation:<br/>
+- ***Poisson random variable*** is typically used to model the number of times an event happened in a time interval. For example, the number of users who visited a website in an interval can be thought of as a Poisson process. Poisson distribution is described in terms of the rate ***(μ)*** at which the events happen. An event can occur ***0, 1, 2, …*** times in an interval. The average number of events in an interval is designated ***λ (lambda)***. Lambda is the event rate, also called the ***rate parameter***. The probability of observing ***k*** events in an interval is given by the equation:<br/>
  ![image](https://user-images.githubusercontent.com/74718375/112758781-e2de5f00-9011-11eb-952d-a0859d50300e.png)<br/>
 
 ## Short introduction to Exponential Distribution
@@ -38,8 +38,8 @@ Now find average number of customers waiting in the queue and average waiting ti
  ![image](https://user-images.githubusercontent.com/74718375/112759206-d3601580-9013-11eb-909f-b215e2b6ca32.png)<br/>
 
 ## Why Poisson Distribution is used for Inter-Arrival Time
-- Poison distribution usually works with a ***discrete*** value. Since inter-arrival time does not come in a sequential way, it comes in a random way, so poison distribution is used in this case
+- Poison distribution usually works with a ***discrete*** value. Since inter-arrival time does not come sequentially, it comes randomly, so poison distribution is used in this case
 
 ## Why Exponential Distribution is used for Service Time
 - Exponential Distribution deals with the time between occurrences of successive events as time flows by
-continuously. Here starting and ending of service can be considerred as two successive events.
+continuously. Here starting and ending of service can be considered as two successive events.
